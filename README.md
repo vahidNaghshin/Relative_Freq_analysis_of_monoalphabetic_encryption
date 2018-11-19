@@ -1,2 +1,7 @@
 # Relative_Freq_analysis_of_monoalphabetic_encryption
-a frame work for relative frequency analysis of mono alphabetic encryption algorithm for English plain text is proposed
+A general frame work for relative frequency analysis of monoalphabetic encryption algorithm for English plain text is proposed. In a monoalphabetic encryption there is only one possible mapping between a given letter in a plain text and a letter in cipher text. For example, the letter 'C' in plain text can be mapped to only 'E' in cipher text and no other letter can take 'E' as its representative in cipher text. This makes the encryption algorithm vulnerable to the reative frequency analysis attack. The Python implementation of a general frequency analysis attack is proposed for two common words in english, i.e., 'THE' and 'THAT'. The algorithm derives the possible nominaton of words for letters 'E', 'T', 'A', 'H' which can be used for cryptoanalysis purposes. The steps impelmented in this script is as follows:
+1) a given plain text in english is encrypted by a randomly generated key
+2) the relative frequency of the letters are derived and three most frequent letter in cipher text are derived
+3) the possible nomination of the letter in cipher text for letters 'T', 'H', 'E', and 'A' are proposed. JUsing the nomination letter proposed by algorithm, the cryptoanalysis can be proceeded. 
+
+Note: sinc the possible search area for all comboantions of all letters are prohibitive, since some human intervention is required for limiting the search area. The propsoed algorithm initiates the relative frequency analysis attack more feasible and easier. 
